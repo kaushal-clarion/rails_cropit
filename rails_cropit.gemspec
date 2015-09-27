@@ -10,9 +10,9 @@ Gem::Specification.new do |spec|
   spec.email         = ["kaushalk16@gmail.com"]
   spec.platform      = Gem::Platform::RUBY
 
-  spec.summary       = "Crop image run time "
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = "Crop image run time"
+  spec.description   = 'It is jQuery gem for "customizable crop and zoom" on rails application platform'
+  spec.homepage      = "https://github.com/kaushal-xx/rails_cropit"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
