@@ -18,7 +18,25 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Include cropit javascript assets
+
+Add the following to your app/assets/javascripts/application.js:
+
+//= require jquery.cropit
+
+
+Include cropit stylesheet assets
+
+Add the following to your app/assets/javascripts/application.css:
+
+# require "cropit"
+
+or 
+
+Add the following to your app/assets/javascripts/application.css.scss:
+
+@import "cropit";
+
 
 ## Development
 
